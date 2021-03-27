@@ -64,15 +64,25 @@ header nav ul li a {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-   
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position:80%;
 }
 
 .hero-intro {
-    width: 50%;
-    text-align: left;
-    margin: 3.5%;
+    width: 40%;
+    margin:30px 750px 50px 20px;
     color: #fff;
-    font-size: 18px;
-    line-height: 1.2;
+    font-size: 1.5vw;
+    line-height: 1.5;
+}
+
+.hero-intro h2 {
+    text-align: center;
+}
+
+.hero-intro p {
+    text-align: justify;
+    font-weight: bold;
 }
 
