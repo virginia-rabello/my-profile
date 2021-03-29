@@ -58,12 +58,13 @@ header nav ul li a {
 }
 
 .hero {
+    align-items: flex-start;
     background-image: url('../assets/images/me.jpg');
-    background-size: cover;
     display: flex;
+    background-size: cover;
+    background-position: center;
     justify-content: center;
     flex-wrap: wrap;
-    align-items: flex-start;
     background-attachment: fixed;
     background-position:80%;
 }
@@ -209,5 +210,42 @@ footer {
     text-align: center;
 }
 
+
+
+  
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+  @media screen and (max-width: 768px) {
+      
+     
+      .hero {
+          background-image: url("../assets/images/me-tablet.jpg");
+      }
+  
+     
+  }
+  @media screen and (max-width: 575px) {
+   
+    .hero {
+        background-image: url("../assets/images/me-mobile.jpg");
+    }
+
+    .work {
+    flex: 0 30%;
+    }
+
+    .contact li {
+    text-align: center;
+    }
+
+    .contact li > * {
+    flex: 0 100%;
+    }
+
+    .contact {
+        order: 3;
+    }
+
+}
+  
 
 

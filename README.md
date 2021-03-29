@@ -5,6 +5,7 @@
     2 - A picture. 
     3 - Clickable icons for my works that changes the opacity with the mouse arrow and direct to the deployed app.
     4 - Contact Section with important links.
+    5 - Responsive layout
 
 * Webpage screenshots 
 ![A screenshot of the "About Me + header"](assets\images\screen-shot1.jpg)
@@ -16,4 +17,7 @@ https://github.com/virginia-rabello/my-profile
 
 * Webpage URL deployed
 https://virginia-rabello.github.io/my-profile/
+
+# Notes: things to improve
+# 
 
