@@ -19,5 +19,5 @@ https://github.com/virginia-rabello/my-profile
 https://virginia-rabello.github.io/my-profile/
 
 # Notes: things to improve
-# 
+# Keep working in media queries
 
